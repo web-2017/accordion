@@ -34,17 +34,46 @@ whrite this tags
 </body>
 </html>
 
-$(function(){
-    var text = $('.accordion > #text').hide(); //hide all content
-    text.first().show();  //show first content
+    .accordion{
+      width: 250px;
+    }
 
-    $('.accordion > div > a').click(function(e){
-        e.preventDefault();
-        var $this = $(this);
+    .accordion a{
+        border: 1px solid #000;
+        padding: 5px 0;
+        text-align: center;
+        margin: 0;
+        display: block;
+        text-decoration: none;
+    }
 
-        text.slideUp();
-        $this.parent().next().slideDown();
-        
-        return false;
+    .accordion p {
+        padding: 10px 15px;
+        margin: 0px;
+        border-left: 1px solid #000;
+        border-right: 1px solid #000;
+    }
+
+    #text{
+      display: none;
+    }
+
+    #text:last-child{
+      border-bottom: 1px solid #000;
+    }
+
+
+    $(function(){
+        var text = $('.accordion > #text').hide(); //hide all content
+        text.first().show();  //show first content
+
+        $('.accordion > div > a').click(function(e){
+            e.preventDefault();
+            var $this = $(this);
+
+            text.slideUp();
+            $this.parent().next().slideDown();
+
+            return false;
+        });
     });
-});
