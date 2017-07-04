@@ -1,4 +1,5 @@
-# accordion
+# accordion 
+# How to use
 accordion on jq
 
 create index.html
@@ -34,8 +35,7 @@ whrite this tags
 </html>
 
 /*ADD STYLE*/
-/*style*/
-
+<style>
 .accordion{
   width: 250px;
 }
@@ -63,7 +63,7 @@ whrite this tags
 #text:last-child{
   border-bottom: 1px solid #000;
 }
-
+</style>
 /*Add Script jq*/
 
 $(function(){
