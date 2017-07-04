@@ -31,42 +31,8 @@ whrite this tags
         </div>
     </div>
 
-
-/*ADD STYLE*/
-<style>
-.accordion{
-  width: 250px;
-}
-
-.accordion a{
-    border: 1px solid #000;
-    padding: 5px 0;
-    text-align: center;
-    margin: 0;
-    display: block;
-    text-decoration: none;
-}
-
-.accordion p {
-    padding: 10px 15px;
-    margin: 0px;
-    border-left: 1px solid #000;
-    border-right: 1px solid #000;
-}
-
-#text{
-  display: none;
-}
-
-#text:last-child{
-  border-bottom: 1px solid #000;
-}
-</style>
 </body>
 </html>
-
-
-/*Add Script jq*/
 
 $(function(){
     var text = $('.accordion > #text').hide(); //hide all content
