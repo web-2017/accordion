@@ -12,7 +12,6 @@ whrite this tags
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/main.css">    
-    <title>Document</title>
 </head>
 <body>
 
@@ -33,35 +32,6 @@ whrite this tags
 
 </body>
 </html>
-
-    .accordion{
-      width: 250px;
-    }
-
-    .accordion a{
-        border: 1px solid #000;
-        padding: 5px 0;
-        text-align: center;
-        margin: 0;
-        display: block;
-        text-decoration: none;
-    }
-
-    .accordion p {
-        padding: 10px 15px;
-        margin: 0px;
-        border-left: 1px solid #000;
-        border-right: 1px solid #000;
-    }
-
-    #text{
-      display: none;
-    }
-
-    #text:last-child{
-      border-bottom: 1px solid #000;
-    }
-
 
     $(function(){
         var text = $('.accordion > #text').hide(); //hide all content
