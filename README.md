@@ -31,8 +31,6 @@ whrite this tags
         </div>
     </div>
 
-</body>
-</html>
 
 /*ADD STYLE*/
 <style>
@@ -64,6 +62,10 @@ whrite this tags
   border-bottom: 1px solid #000;
 }
 </style>
+</body>
+</html>
+
+
 /*Add Script jq*/
 
 $(function(){
