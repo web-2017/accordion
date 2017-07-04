@@ -18,6 +18,10 @@
     border-right: 1px solid #000;
 }
 
-#tab1{
+#text{
   display: none;
+}
+
+#text:last-child{
+  border-bottom: 1px solid #000;
 }
